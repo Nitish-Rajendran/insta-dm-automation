@@ -6,7 +6,7 @@ bot = Bot()
 bot.login(username=os.getenv("IG_USERNAME"), password=os.getenv("IG_PASSWORD"))
 
 today = datetime.date.today()
-base = datetime.date(2024, 1, 1)
+base = datetime.date(2025, 4, 20)
 count = (today - base).days + 1
 
 message = f"{count}. Good Morning"
